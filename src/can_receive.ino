@@ -1,4 +1,4 @@
-// Copyright (c) Sandeep Mistry. All rights reserved.
+// Based on Copyrighted code from (c) Sandeep Mistry. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 #include <CAN.h>
@@ -14,7 +14,7 @@ void setup() {
 
   // Initialize the serial console and wait a second to start
   Serial.begin(115200);
-  delay(WIFI_START_PAUSE_MS);
+  delay(STARTUP_PAUSE);
 
   // Tell the serial console who we are
   Serial.println("****************");
